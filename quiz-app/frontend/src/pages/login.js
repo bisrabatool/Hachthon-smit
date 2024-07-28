@@ -1,6 +1,6 @@
 import React from "react";
 import "./register.css";
-import myImage from "../../assets/smitlogo.png";
+import myImage from "..//assets/smitlogo.png";
 import { Link } from "react-router-dom";
 import { Form } from "antd";
 
@@ -48,14 +48,14 @@ function Login() {
                   <input
                     // value={password}
                     // onChange={(e) => setPassword(e.target.value)}
-                    className="w-full border-2 border-gray-100 rounded-lg p-2  bg-transparent"
+                    className="input-feild w-full border-2 border-gray-100 rounded-lg p-2  bg-transparent"
                     placeholder="Enter your password"
                     type={"password"}
                   />
                 </div>
                 <div className="mt-8 flex justify-between items-center">
                   <div>
-                    <input type="checkbox" id="remember" />
+                    <input type="checkbox" id="remember" className="input-feild " />
                     <label
                       className="ml-2 font-medium text-base text-white"
                       for="remember"

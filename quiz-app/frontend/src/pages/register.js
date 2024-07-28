@@ -1,6 +1,6 @@
 import React from "react";
 import "./register.css";
-import myImage from "../../assets/smitlogo.png";
+import myImage from "..//assets/smitlogo.png";
 import { Link } from "react-router-dom";
 import { Form } from "antd";
 
@@ -32,7 +32,7 @@ function Register() {
                   <input
                     // value={email}
                     // onChange={(e) => setEmail(e.target.value)}
-                    className="w-full border-2 border-gray-100 rounded-lg p-2 mt-1 bg-transparent"
+                    className="input-feild w-full border-2 border-gray-100 rounded-lg p-2 mt-1 bg-transparent"
                     placeholder="Enter your username"
                   />
                 </div>
@@ -46,7 +46,7 @@ function Register() {
                   <input
                     // value={email}
                     // onChange={(e) => setEmail(e.target.value)}
-                    className="w-full border-2 border-gray-100 rounded-lg p-2 mt-1 bg-transparent"
+                    className="input-feild w-full border-2 border-gray-100 rounded-lg p-2 mt-1 bg-transparent"
                     placeholder="Enter your email"
                   />
                 </div>
@@ -60,7 +60,7 @@ function Register() {
                   <input
                     // value={password}
                     // onChange={(e) => setPassword(e.target.value)}
-                    className="w-full border-2 border-gray-100 rounded-lg p-2  bg-transparent"
+                    className="input-feild  w-full border-2 border-gray-100 rounded-lg p-2  bg-transparent"
                     placeholder="Enter your password"
                     type={"password"}
                   />
@@ -75,7 +75,7 @@ function Register() {
                   <input
                     // value={password}
                     // onChange={(e) => setPassword(e.target.value)}
-                    className="w-full border-2 border-gray-100 rounded-lg p-2  bg-transparent"
+                    className="input-feild  w-full border-2 border-gray-100 rounded-lg p-2  bg-transparent"
                     placeholder="Enter your password"
                     type={"password"}
                   />
